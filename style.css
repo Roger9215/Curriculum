@@ -3,7 +3,7 @@
 
 /* Variáveis CSS para cores personalizadas */
 :root {
-    --primary-color: #3b82f6;
+    --primary-color: #ffffff;
     --primary-dark: #2563eb;
     --primary-light: #60a5fa;
     --secondary-color: #10b981;
@@ -61,7 +61,7 @@ body::before {
 .presentation-container {
     background: rgba(49, 8, 231, 0.5);
     backdrop-filter: blur(20px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.95);
     border-radius: 2rem;
     box-shadow: var(--card-shadow);
     width: 100%;
