@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apresentação Profissional - Rogério Reis</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+
+  <style>
+    .tooltip-container {
+      position: relative;
+      cursor: pointer;
+    }
+
+    .tooltip-container::after {
+      content: attr(data-title);
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+      padding: 0.5rem;
+      border-radius: 0.375rem;
+      font-size: 0.875rem;
+      white-space: nowrap;
+      opacity: 0;
+      transform: translateY(-100%);
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+      top: -0.5rem;
+      left: 50%;
+      transform: translateX(-50%) translateY(-100%);
+      z-index: 50;
+    }
+
+    .tooltip-container:hover::after,
+    .tooltip-container:focus::after {
+      opacity: 1;
+    }
+  </style>
+<body>
+        
+    
+    <div class="presentation-container loading">
+        <div class="progress-bar" id="progressBar"></div>
+
+        <div class="slide-counter">
+            <span id="currentSlideNum">1</span> / <span id="totalSlides">6</span>
+        </div>
+
+        <div id="slide1" class="slide active">
+            <img src="imagem/foto.jpeg" alt="Foto de Perfil de Rogério Reis" class="profile-pic">
+            <h1>Proposta de Gestão Comercial para Vendas PAP</h1>
+            <p class="text-2xl font-semibold text-gray-700 mt-4">Rogério Reis de Santana Ferreira</p>
+             <p class="text-xl text-gray-600 mt-2">Bacharelado em Administração e Técnico em Contabilidade</p>
+            <p class="text-xl text-gray-600 mt-2">Especialista em Vendas e Operações de Telecomunicações</p>
+            
+           
+        <div class="flex flex-wrap justify-center gap-4 mt-6">
+  <div class="tooltip-container" data-title="Na área de telecomunicação">
+    <button class="px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-semibold">
+      + 15 Anos de Experiência
+    </button>
+  </div>
+
+  <div class="tooltip-container" data-title="Acompanhamento da produção junto a qualidade">
+    <button class="px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-semibold">
+      Gestão de Equipes
+    </button>
+  </div>
+
+  <div class="tooltip-container" data-title="Recuperação do Iq de qualidade de 76% para 95%">
+    <button class="px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-semibold">
+      Resultados Comprovados
+    </button>
+  </div>
+</div>
+
+ </div>
+
+        <div id="slide2" class="slide">
+            <div class="slide-content max-w-2xl mx-auto">
+                <h2><i class="fas fa-user-tie mr-3"></i>Minha Jornada e o Mercado de Telecom</h2>
+                <p>Profissional com mais de 10 anos de experiência no mercado de telecomunicações, atuando como parceiro de vendas da operadora Oi, com a prestação de serviços na tecnologia cobre( voz e dados (Velox)), até a transição e consolidação da Fibra óptica.</p>
+                <h3 class="text-2xl font-semibold text-gray-800 mt-8 mb-4">
+                    <i class="fas fa-history mr-2 text-blue-600"></i>Histórico com Vendas:
+                </h3>
+                <ul>
+                    <li><strong>Atuação com os canais de vendas:</strong> PAP (Porta a Porta), LOJA e TLAG.</li>
+                    <li><strong>Conhecimento aprofundado:</strong> Ferramentas de gestão de vendas e melhoria nos processos de qualidade em produtos de tecnologia em fibra optica. </li>
+                    <li><strong>Experiência em gerir</strong> a performance de vendas em diferentes canais.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="slide3" class="slide">
+            <div class="slide-content max-w-2xl mx-auto">
+                <h2><i class="fas fa-cogs mr-3"></i>Habilidades para Liderar o Segmento de Vendas</h2>
+                <ul>
+                    <li><strong>Liderança e Seleção de colaboradores</strong> Habilidade em recrutar, selecionar e montar equipes de vendas de alta performance, incluindo líderes.</li>
+                    <li><strong>Gestão de Equipe e Performance:</strong> Experiência em acompanhar o desempenho individual e coletivo, definindo metas e indicadores.</li>
+                    <li><strong>Acompanhamento de Qualidade:</strong> Foco em garantir a qualidade das vendas, minimizando cancelamentos e otimizando a produção.</li>
+                    <li><strong>Análise e Estratégia:</strong> Capacidade de analisar métricas para aumento da produtividade, identificando oportunidades de melhoria e traçar planos de ações consistente.</li>
+                    <li><strong>Comunicação e Motivação:</strong> Habilidade em conduzir reuniões, realizar campanhas de incentivo e manter a equipe motivada.</li>
+                    <li><strong>Domínio das ferramentas e processos das jornadas de venda:</strong> O que permite a identificação e resolução ágil de falhas sistêmicas, frequentemente sem a necessidade de acionar o suporte técnico da operadora..</li>
+                    <li><strong>Relacionamento Interpessoal:</strong> Bom relacionamento com as principais áreas da cadeia NIO  quanto da área técnica.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="slide4" class="slide">
+            <div class="slide-content max-w-2xl mx-auto">
+                <h2><i class="fas fa-building mr-3"></i>Minha Experiência em Gestão </h2>
+                <h3 class="text-2xl font-semibold text-gray-800 mb-4">
+                    <i class="fas fa-award mr-2 text-yellow-600"></i>GBL Serviço de Telefonia Ltda. - 15 Anos de Mercado
+                </h3>
+                <p>Exerci, ao longo de mais de 10 anos, posição de liderança na GBL Serviços de Telefonia Ltda., empresa com sólida atuação no setor de telecomunicações e parceira estratégica da Oi. Minha performance consistente, orientada a resultados e excelência operacional, foi determinante para a conquista da posição de sócio em regime de coparticipação, como reconhecimento à minha contribuição significativa para o atingimento das metas comerciais e dos principais indicadores de qualidade da empresa, diversas vezes reconhecida pelos gerentes de carreira da OI.</p>
+                <h3 class="text-2xl font-semibold text-gray-800 mt-8 mb-4">
+                    <i class="fas fa-tasks mr-2 text-green-600"></i>Minhas Responsabilidades e Resultados:
+                </h3>
+                <ul>
+                    <li>Acompanhamento de qualidade e produção dos canais de venda (PAP, LOJA, Teleagente).</li>
+                    <li>Elaboração de relatórios de desempenho e resultados para a diretoria.</li>
+                    <li>Implementação de melhorias em processos para otimizar a operação de vendas.</li>
+                    <li>Treinamento e capacitação de equipes de vendas.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="slide5" class="slide">
+            <div class="slide-content max-w-2xl mx-auto">
+                <h2><i class="fas fa-rocket mr-3"></i>Proposta de Valor para o Segmento de Vendas PAP</h2>
+                <ul>
+                    <li><strong>Recrutamento e Seleção:</strong> Participar ativamente da seleção de líderes e vendedores, buscando profissionais com o perfil certo.</li>
+                    <li><strong>Acompanhamento Contínuo:</strong> Estabelecer uma rotina de acompanhamento diário da produção e desempenho da equipe.</li>
+                    <li><strong>Cultura de Qualidade:</strong> Implementar indicadores e processos para garantir a qualidade das vendas.</li>
+                    <li><strong>Motivação e Campanhas:</strong> Realizar campanhas de incentivo e reconhecimento para impulsionar os resultados.</li>
+                    <li><strong>Sinergia e Comunicação:</strong> Atuar como um elo entre a equipe de vendas e a gestão, participando ativamente das reuniões.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="slide6" class="slide">
+            <div class="slide-content max-w-4xl mx-auto">
+                <h1><i class="fas fa-handshake mr-3"></i>Pronto para Liderar o Crescimento</h1>
+                <p class="text-2xl mb-8">Estou preparado para aplicar minha experiência e conhecimento para montar uma equipe de alto desempenho e alavancar as vendas PAP da sua empresa.</p>
+
+                <h3 class="text-2xl font-semibold text-gray-800 mt-8 mb-6">
+                    <i class="fas fa-address-card mr-2"></i>Informações de Contato:
+                </h3>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-4xl mx-auto">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div>
+                            <strong>Nome:</strong><br>
+                            Rogério Reis de Santana Ferreira
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <strong>E-mail:</strong><br>
+                            rogerioferrreirauol@gmail.com
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <strong>Telefone:</strong><br>
+                            71 98895-0165
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div>
+                            <strong>LinkedIn:</strong><br>
+                            www.linkedin.com/in/rogério-reis-905121312
+                        </div>
+                    </div>
+                </div>
+
+                <p class="text-4xl font-extrabold text-blue-600 mt-12">
+                    Obrigado!
+                </p>
+            </div>
+        </div>
+
+        <div class="navigation-buttons">
+            <button id="prevBtn" class="nav-button" disabled aria-label="Slide anterior">
+                <i class="fas fa-chevron-left mr-2"></i>Anterior
+            </button>
+
+            <div class="dots-navigation" id="dotsNav">
+                </div>
+
+            <button id="nextBtn" class="nav-button" aria-label="Próximo slide">
+                Próximo<i class="fas fa-chevron-right ml-2"></i>
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
