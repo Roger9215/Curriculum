@@ -60,7 +60,7 @@ body::before {
 /* Contêiner principal da apresentação */
 .presentation-container {
     background: rgba(49, 8, 231, 0.95);
-    backdrop-filter: blur(20px);
+    backdrop-filter: red(20px);
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 2rem;
     box-shadow: var(--card-shadow);
